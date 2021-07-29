@@ -1,8 +1,9 @@
 <template>
   <div id="app">
+    <vue-progress-bar></vue-progress-bar>
     <div id="nav">
       <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/articles">Articles</router-link>
     </div>
     <router-view />
   </div>
